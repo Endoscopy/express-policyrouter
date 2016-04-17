@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leezhenghui/expressjs.policyrouter.git"
+    "url": "git+https://github.com/leezhenghui/express-policyrouter.git"
   },
   "author": "leezhenghui@gmail.com",
   "license": "Apache License 2",
   "bugs": {
-    "url": "https://github.com/leezhenghui/expressjs.policyrouter/issues"
+    "url": "https://github.com/leezhenghui/express-policyrouter/issues"
   },
-  "homepage": "https://github.com/leezhenghui/expressjs.policyrouter#readme",
+  "homepage": "https://github.com/leezhenghui/express-policyrouter#readme",
   "dependencies": {
     "debug": "^2.2.0",
     "q": "^1.4.1"
