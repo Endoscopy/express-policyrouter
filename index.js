@@ -12,8 +12,11 @@
 //       Policy Router
 //========================================
 
-var PolicyHandler            = require('./lib/policyHandler'); 
-var PolicyRouter             = require('./lib/policyRouter');
-    
+const PolicyHandler = require('./lib/policyHandler');
+const PolicyRouter = require('./lib/policyRouter');
+
+const HealthChecker = require('./lib/policies/health');
+
 module.exports.PolicyHandler = PolicyHandler;
-module.exports.PolicyRouter  = PolicyRouter;
+module.exports.PolicyRouter = PolicyRouter;
+module.exports.HealthChecker = HealthChecker;
